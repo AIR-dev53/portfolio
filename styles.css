@@ -11,7 +11,8 @@ body{
     background-color: rgb(28,28,65);
     color: rgb(134,168,231);
     font-size: 16px;
-    
+    background-image: url(./images/background.png);
+   
 }
 
 .navbar_ul{
@@ -21,8 +22,9 @@ body{
     justify-content: space-around;
     align-items: space-between;
     flex-wrap: wrap;
-    gap: 25px;
-    margin-bottom: 25px;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
     font-size: 1.5rem;
 }
 
@@ -56,7 +58,8 @@ body{
 
 figcaption{
     text-align: center;
-    margin:1.5rem 0; 
+    margin:1.5rem 3rem 1.5rem 0rem; 
+    font-size: 1.3rem;
     position: relative;
     z-index: 1;
 
@@ -66,8 +69,26 @@ figcaption{
     width:20%;
     height:auto;
     position: fixed;
-    right: -20px;
-    top:500px;
+    right: -2rem;
+    top:30rem;
     z-index: index -1;
+    border-radius: 10%;
+    box-shadow: 10px -5px 70px rgb(95,251,241);
+}
+.nav_bar_linked{
+    text-align: center;
+    font-size: 2.3rem;
+    margin: 2rem;;
+}
 
+
+
+
+.in_progress{
+    width: 50%;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+  padding-top:2rem ;
+  display: block;
 }
