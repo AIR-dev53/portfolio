@@ -2,6 +2,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px;
     font-family:'Varela Round',"Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+
+
+body{
+    background-color: rgb(28,28,65);
+    color: rgb(134,168,231);
+    font-size: 16px;
+    
+}
+
+.navbar_ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.navbar_item:link,.navbar:visited,.navbar:active{
+    
+    text-decoration: none;
+    color: rgb(134,168,231);
+}
+
+.navbar_item:hover{
+    color:rgb(95,251,241)
+}
+#me{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+
+}
+
+.profile_img{
+    display: block;
+    border-radius: 35%;
+    width:50%;
+    height: auto;
+    margin: 1rem auto;  
+}
+
+.profile_img:hover{
+    box-shadow: 10px -5px 70px rgb(95,251,241);
+}
+
+figcaption{
+    text-align: center;
+    margin:1.5rem 0; 
+    position: relative;
+    z-index: 1;
+
+}
+
+.follow{
+    width:20%;
+    height:auto;
+    position: fixed;
+    right: -20px;
+    top:500px;
+    z-index: index -1;
+
 }
