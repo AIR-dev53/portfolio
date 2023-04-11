@@ -28,13 +28,13 @@ body{
     font-size: 1.5rem;
 }
 
-.navbar_item:link,.navbar:visited,.navbar:active{
+.navbar_item:link,.navbar:active{
     
     text-decoration: none;
     color: rgb(134,168,231);
 }
 
-.navbar_item:hover{
+.navbar_item:hover,.navbar_item:visited{
     color:rgb(95,251,241)
 }
 #me{
@@ -73,12 +73,12 @@ figcaption{
     top:30rem;
     z-index: index -1;
     border-radius: 10%;
-    box-shadow: 10px -5px 70px rgb(95,251,241);
+    box-shadow: -50px -7px 90px rgb(95,251,241);
 }
 .nav_bar_linked{
     text-align: center;
     font-size: 2.3rem;
-    margin: 2rem;;
+    margin: 3rem;;
 }
 
 
@@ -89,6 +89,20 @@ figcaption{
     height: auto;
     margin-left:auto;
     margin-right: auto;
-  padding-top:2rem ;
-  display: block;
+    padding-top:2rem ;
+    display: block;
+}
+
+.contact_me{
+    width: 30%;
+    height: auto;
+
+}
+
+.animate__pulse:hover{
+    width: 35%;
+    animation: rubberband;
+    animation-duration: 3s;
+  
+    
 }
