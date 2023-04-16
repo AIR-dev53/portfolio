@@ -56,6 +56,15 @@ body{
     box-shadow: 10px -5px 70px rgb(95,251,241);
 }
 
+.text_1{
+    margin:0 3rem;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.3rem;
+   color:rgb(177, 196, 231) ;
+
+   text-align: center;
+}
+
 figcaption{
     text-align: center;
     margin:1.5rem 3rem 1.5rem 0rem; 
@@ -104,26 +113,27 @@ figcaption{
 }
 
 .in_progress{
-    width: 50%;
+    width: 60%;
     height: auto;
-    margin-left:auto;
-    margin-right: auto;
+    margin-left: 5rem ;
     padding:2rem ;
     display: block;
-    min-width: 10rem;
+    min-width: 7rem;
     
 }
 
 .contact_me{
     width: 30%;
     height: auto;
+    position: relative;
+    z-index: 1;
 
 }
 
-.animate__pulse:hover{
+.animate__:hover{
     width: 35%;
     height: auto;
-    animation: rubberband;
+    animation: rubberBand;
     animation-duration: 3s;
   
     
