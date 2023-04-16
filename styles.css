@@ -81,7 +81,20 @@ figcaption{
     margin: 3rem;;
 }
 
+.text{
+    margin: 3rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    position: relative;
+    z-index: 1;
 
+}
+
+.first-line{
+  display: block;
+  text-align: center;
+  font-style: italic;  
+}
 
 
 .in_progress{
@@ -91,6 +104,7 @@ figcaption{
     margin-right: auto;
     padding-top:2rem ;
     display: block;
+    
 }
 
 .contact_me{
@@ -101,6 +115,7 @@ figcaption{
 
 .animate__pulse:hover{
     width: 35%;
+    height: auto;
     animation: rubberband;
     animation-duration: 3s;
   
